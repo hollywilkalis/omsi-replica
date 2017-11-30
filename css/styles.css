@@ -14,8 +14,10 @@ src: local('Forza Medium'), url('../css/Forza-Medium.woff') format('woff');
   box-sizing: border-box;
 }
 
-.container {
+body div.container {
   width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bar {
