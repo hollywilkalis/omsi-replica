@@ -1,0 +1,135 @@
+@font-face {
+font-family: 'Forza Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Forza Medium'), url('../css/Forza-Medium.woff') format('woff');
+}
+
+* {
+  font-family: 'Forza Medium';
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+}
+
+.nav-bar {
+
+}
+
+button {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background-color: #c8c8c8;
+  color: white;
+}
+
+.feature {
+  background-image: url("../img/space.jpg");
+  background-size: cover;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-position: 50% 50% 9 !important;
+  height: 560px;
+  height: 100vh;
+  min-height: 560px;
+  max-width: 100%;
+  position: relative;
+  }
+
+.feature h2 {
+  color: #FFF;
+  text-align: center;
+}
+
+.member h3 {
+  color: darkgray;
+  text-align: center;
+}
+
+.illusion h3, .explore h3 {
+  color: white;
+  text-align: center;
+}
+
+.illusion p, .explore p {
+  color: white;
+  text-align: center;
+}
+
+.form {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.member {
+
+}
+
+.illusion {
+  background-color: #4990e2;
+  position: relative;
+  padding: 20px;
+}
+
+.illusion p, h3, button {
+  position: relative;
+  text-align: center;
+}
+
+.illusion button {
+  margin-bottom: 10px;
+}
+
+.illusion img {
+  width: 91vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.activities {
+  background-color: #efefef;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.activities img {
+  width: 49vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  font-size: 29px;
+}
+
+.event-box {
+  padding: 15px 0 0 0;
+}
+
+.event-box:nth-child(even){
+  background-color: #f6f6f6;
+}
+
+.event-box h4, p, button {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.explore {
+  background-image: url(../img/heroband_spaceshuttle_tiny.jpg);
+}
+
+.footer {
+  background-color: #353535;
+}
